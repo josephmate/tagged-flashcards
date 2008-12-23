@@ -1,0 +1,8 @@
+
+<!ELEMENT flashcards	(flashcard)>
+<!ELEMENT flashcard		(front, back, tags)>
+<!ELEMENT tags			(tag)>
+<!ELEMENT tag			(#PCDATA)>
+<!ELEMENT front			(#PCDATA)>
+<!ELEMENT back			(#PCDATA)>
+
