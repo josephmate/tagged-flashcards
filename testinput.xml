@@ -1,0 +1,21 @@
+<!DOCTYPE flashcards SYSTEM "flashcards.dtd">
+<flashcards>
+	<flashcard>
+		<front>to say</front>
+		<back>hablar</back>
+		<tags>
+			<tag>regular ar</tag>
+			<tag>regular</tag>
+			<tag>verb</tag>
+		</tags>
+	</flashcard>
+	<flashcard>
+		<front>to wash yourself</front>
+		<back>lavarse</back>
+		<tags>
+			<tag>reflexive</tag>
+			<tag>regular ar</tag>
+			<tag>regular</tag>
+		</tags>
+	</flashcard>
+</flashcards>

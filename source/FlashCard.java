@@ -3,9 +3,19 @@
 
 public class FlashCard implements XMLWriteable{
 	
-	public Tag tags;
+	private Tags tags;
 	public String front;
 	public String back;
+	
+	public FlashCard()
+	{
+		tags = new Tags();
+	}
+	
+	public void addTag(String s)
+	{
+		tags.addTag(s);
+	}
 	
 	public String WriteXML(String tabbing)
 	{
@@ -13,10 +23,10 @@ public class FlashCard implements XMLWriteable{
 			tabbing + "<flashcard>\n";
 		
 		returnVal +=
-			tabbing + "<front>" + front + "</front>";
+			tabbing + "\t<front>" + front + "</front>" + "\n";
 		
 		returnVal +=
-			tabbing + "<back>" + back + "</back>";
+			tabbing + "\t<back>" + back + "</back>"+ "\n";
 		
 		returnVal += tags.WriteXML(tabbing + "\t");
 		
